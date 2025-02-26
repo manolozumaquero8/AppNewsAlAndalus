@@ -1,0 +1,1 @@
+Buenas, soy Manuel Zumaquero y esta es mi aplicación de Android llamada App News Al-Andalus. Es una app multifuncional con noticias en tiempo real, gestión de contactos, chat, mapas, sensores y multimedia.
