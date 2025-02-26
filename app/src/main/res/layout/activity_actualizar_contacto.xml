@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".ActualizarContactos">
+
+    <TextView
+        android:id="@+id/et_title2"
+        android:layout_width="178dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="28dp"
+        android:text="EDITAR CONTACTO"
+        android:textAlignment="center"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="124dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_title2"
+        app:srcCompat="@drawable/baseline_person_add_24" />
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="349dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="28dp"
+        android:background="@null"
+        android:hint="NOMBRE..."
+        android:inputType="textPersonName"
+        android:textColor="@color/ic_launcher_background"
+        android:textColorHint="@color/ic_launcher_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView3" />
+
+    <EditText
+        android:id="@+id/et_apellidos"
+        android:layout_width="351dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:hint="APELLIDOS..."
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/ic_launcher_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_nombre" />
+
+    <EditText
+        android:id="@+id/et_telefono"
+        android:layout_width="349dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="24dp"
+        android:background="@null"
+        android:hint="TELEFONO..."
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textColorHint="@color/ic_launcher_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_apellidos" />
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#FDFDFD"
+        android:text="Guardar"
+        android:textColor="@color/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="@id/et_title2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/et_title2"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:backgroundTint="#FDFDFD"
+        android:text="Cancelar"
+        android:textColor="@color/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="@id/et_title2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/et_title2"
+        app:layout_constraintVertical_bias="0.482" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

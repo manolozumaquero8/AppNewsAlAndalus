@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AppNewsAlAndalus</string>
+    <string name="email">Email...</string>
+    <string name="contraseña">Contraseña...</string>
+    <string name="news_api_key">e6a5078ac7454bc686f0d66be1910e87</string>
+</resources>

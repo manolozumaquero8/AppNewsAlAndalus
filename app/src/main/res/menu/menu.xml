@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_title"
+        android:checkable="false"
+        android:enabled="true"
+        app:actionLayout="@layout/menu_titulo"
+        app:showAsAction="never"/>
+
+    <group android:checkableBehavior="single"
+        android:background="@android:color/black">
+
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/usuarios"
+            android:title="Mi agenda"/>
+        <item
+            android:id="@+id/nav_noticias"
+            android:icon="@drawable/noticias"
+            android:title="Ultimas Noticias"/>
+        <item
+            android:id="@+id/nav_eventos"
+            android:icon="@drawable/eventos"
+            android:title="Donde encontrarnos"/>
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat"
+            android:title="Chat Online" />
+        <item
+            android:id="@+id/nav_sensor"
+            android:icon="@drawable/sensor"
+            android:title="Informacion dispositivo"/>
+        <item
+            android:id="@+id/nav_multimedia"
+            android:icon="@drawable/multimedia"
+            android:title="Multimedia"/>
+        <item
+            android:id="@+id/separador2"
+            android:title="" />
+        <item
+            android:id="@+id/separador3"
+            android:title="" />
+        <item
+            android:id="@+id/separador4"
+            android:title="" />
+        <item
+            android:id="@+id/separador5"
+            android:title="" />
+        <item
+            android:id="@+id/separador6"
+            android:title="" />
+        <item
+            android:id="@+id/separador7"
+            android:title="" />
+        <item
+            android:id="@+id/separador8"
+            android:title="" />
+        <item
+            android:id="@+id/separador9"
+            android:title="" />
+    </group>
+
+    <item
+        android:id="@+id/item_cerrar"
+        android:icon="@drawable/cerrar"
+        android:title="Cerrar Sesión"/>
+
+    <item
+        android:id="@+id/item_salir"
+        android:icon="@drawable/salir"
+        android:title="Salir"/>
+</menu>
